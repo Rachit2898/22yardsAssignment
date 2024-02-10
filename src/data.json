@@ -1,0 +1,624 @@
+{
+    "company":{
+        "ceo":"Rachit Mishra",
+        
+            "departments": [
+              {
+                "id": 1,
+                "name": "Human Resources",
+                "headName": "John T.",
+                "role":"Head of Dept.",
+                "subDepartments": [
+                  {
+                    "id": 101,
+                    "name": "Training and Development",
+                   
+                    "teamMembers": [
+                        {
+                          "id": 1,
+                          "name": "Virat Kohli",
+                          "role": "Team Leader",
+                          "phoneNumber": "1234567890",
+                          "mailId": "virat.kohli@example.com"
+                        },
+                        {
+                          "id": 2,
+                          "name": "Rachit Sharma",
+                          "role": "Team Member",
+                          "phoneNumber": "9876543210",
+                          "mailId": "rachit.sharma@example.com"
+                        },
+                        {
+                          "id": 3,
+                          "name": "MS Dhoni",
+                          "role": "Team Member",
+                          "phoneNumber": "5678901234",
+                          "mailId": "ms.dhoni@example.com"
+                        },
+                        {
+                          "id": 4,
+                          "name": "Kane Williamson",
+                          "role": "Team Member",
+                          "phoneNumber": "8765432109",
+                          "mailId": "kane.williamson@example.com"
+                        },
+                        {
+                          "id": 5,
+                          "name": "Steve Smith",
+                          "role": "Team Member",
+                          "phoneNumber": "2345678901",
+                          "mailId": "steve.smith@example.com"
+                        },
+                        {
+                          "id": 6,
+                          "name": "Shakib Al Hasan",
+                          "role": "Team Member",
+                          "phoneNumber": "8901234567",
+                          "mailId": "shakib.hasan@example.com"
+                        },
+                        {
+                          "id": 7,
+                          "name": "Jos Buttler",
+                          "role": "Team Member",
+                          "phoneNumber": "4321098765",
+                          "mailId": "jos.buttler@example.com"
+                        },
+                        {
+                          "id": 8,
+                          "name": "David Warner",
+                          "role": "Team Member",
+                          "phoneNumber": "6543210987",
+                          "mailId": "david.warner@example.com"
+                        },
+                        {
+                          "id": 9,
+                          "name": "Babar Azam",
+                          "role": "Team Member",
+                          "phoneNumber": "1098765432",
+                          "mailId": "babar.azam@example.com"
+                        },
+                        {
+                          "id": 10,
+                          "name": "Jasprit Bumrah",
+                          "role": "Team Member",
+                          "phoneNumber": "7654321098",
+                          "mailId": "jasprit.bumrah@example.com"
+                        }
+                      ]
+                  },
+                  {
+                    "id": 102,
+                    "name": "Recruiting and Hiring",
+                    "role":"Head of Dept.",
+                    "teamMembers": [
+                      {
+                        "id": 1,
+                        "name": "Lionel Messi",
+                        "role": "Team Leader",
+                        "phoneNumber": "1234567890",
+                        "mailId": "lionel.messi@example.com"
+                      },
+                      {
+                        "id": 2,
+                        "name": "Cristiano Ronaldo",
+                        "role": "Team Member",
+                        "phoneNumber": "9876543210",
+                        "mailId": "cristiano.ronaldo@example.com"
+                      },
+                      {
+                        "id": 3,
+                        "name": "Neymar Jr.",
+                        "role": "Team Member",
+                        "phoneNumber": "5678901234",
+                        "mailId": "neymar.jr@example.com"
+                      },
+                      {
+                        "id": 4,
+                        "name": "Mohamed Salah",
+                        "role": "Team Member",
+                        "phoneNumber": "8765432109",
+                        "mailId": "mohamed.salah@example.com"
+                      },
+                      {
+                        "id": 5,
+                        "name": "Kylian Mbappé",
+                        "role": "Team Member",
+                        "phoneNumber": "2345678901",
+                        "mailId": "kylian.mbappe@example.com"
+                      },
+                      {
+                        "id": 6,
+                        "name": "Sergio Ramos",
+                       "role": "Team Member",
+                        "phoneNumber": "8901234567",
+                        "mailId": "sergio.ramos@example.com"
+                      },
+                      {
+                        "id": 7,
+                        "name": "Kevin De Bruyne",
+                      "role": "Team Member",
+                        "phoneNumber": "4321098765",
+                        "mailId": "kevin.debruyne@example.com"
+                      },
+                      {
+                        "id": 8,
+                        "name": "Robert Lewandowski",
+                        "role": "Team Member",
+                        "phoneNumber": "6543210987",
+                        "mailId": "robert.lewandowski@example.com"
+                      },
+                      {
+                        "id": 9,
+                        "name": "Luka Modrić",
+                      "role": "Team Member",
+                        "phoneNumber": "1098765432",
+                        "mailId": "luka.modric@example.com"
+                      },
+                      {
+                        "id": 10,
+                        "name": "Virgil van Dijk",
+                       "role": "Team Member",
+                        "phoneNumber": "7654321098",
+                        "mailId": "virgil.vandijk@example.com"
+                      }
+                    ]
+                    
+                  }
+                ]
+              },
+              {
+                "id": 2,
+                "name": "Information Technology",
+                "role":"Head of Dept.",
+                "headName": "Emily C.",
+                "subDepartments": [
+                  {
+                    "id": 201,
+                    "name": "Software Development",
+                    "headName": "David S.",
+                    "teamMembers": [
+                      {
+                        "id": 1,
+                        "name": "Novak Djokovic",
+                        "role": "Team Leader",
+                        "phoneNumber": "1234567890",
+                        "mailId": "novak.djokovic@example.com"
+                      },
+                      {
+                        "id": 2,
+                        "name": "Rafael Nadal",
+                        "role": "Team Member",
+                        "phoneNumber": "9876543210",
+                        "mailId": "rafael.nadal@example.com"
+                      },
+                      {
+                        "id": 3,
+                        "name": "Roger Federer",
+                        "role": "Team Member",
+                        "phoneNumber": "5678901234",
+                        "mailId": "roger.federer@example.com"
+                      },
+                      {
+                        "id": 4,
+                        "name": "Serena Williams",
+                        "role": "Team Member",
+                        "phoneNumber": "8765432109",
+                        "mailId": "serena.williams@example.com"
+                      },
+                      {
+                        "id": 5,
+                        "name": "Simona Halep",
+                        "role": "Team Member",
+                        "phoneNumber": "2345678901",
+                        "mailId": "simona.halep@example.com"
+                      },
+                      {
+                        "id": 6,
+                        "name": "Dominic Thiem",
+                        "role": "Team Member",
+                        "phoneNumber": "8901234567",
+                        "mailId": "dominic.thiem@example.com"
+                      },
+                      {
+                        "id": 7,
+                        "name": "Ashleigh Barty",
+                        "role": "Team Member",
+                        "phoneNumber": "4321098765",
+                        "mailId": "ashleigh.barty@example.com"
+                      },
+                      {
+                        "id": 8,
+                        "name": "Daniil Medvedev",
+                        "role": "Team Member",
+                        "phoneNumber": "6543210987",
+                        "mailId": "daniil.medvedev@example.com"
+                      },
+                      {
+                        "id": 9,
+                        "name": "Naomi Osaka",
+                        "role": "Team Member",
+                        "phoneNumber": "1098765432",
+                        "mailId": "naomi.osaka@example.com"
+                      },
+                      {
+                        "id": 10,
+                        "name": "Stefanos Tsitsipas",
+                        "role": "Team Member",
+                        "phoneNumber": "7654321098",
+                        "mailId": "stefanos.tsitsipas@example.com"
+                      }
+                    ]
+                    
+                  },
+                  {
+                    "id": 202,
+                    "name": "Network Administration",
+                    "headName": "Sophie N.",
+                    "teamMembers": [
+                      {
+                        "id": 1,
+                        "name": "Sidney Crosby",
+                        "role": "Team Leader",
+                        "phoneNumber": "1234567890",
+                        "mailId": "sidney.crosby@example.com"
+                      },
+                      {
+                        "id": 2,
+                        "name": "Connor McDavid",
+                        "role": "Team Member",
+                        "phoneNumber": "9876543210",
+                        "mailId": "connor.mcdavid@example.com"
+                      },
+                      {
+                        "id": 3,
+                        "name": "Alex Ovechkin",
+                        "role": "Team Member",
+                        "phoneNumber": "5678901234",
+                        "mailId": "alex.ovechkin@example.com"
+                      },
+                      {
+                        "id": 4,
+                        "name": "Nathan MacKinnon",
+                        "role": "Team Member",
+                        "phoneNumber": "8765432109",
+                        "mailId": "nathan.mackinnon@example.com"
+                      },
+                      {
+                        "id": 5,
+                        "name": "Auston Matthews",
+                        "role": "Team Member",
+                        "phoneNumber": "2345678901",
+                        "mailId": "auston.matthews@example.com"
+                      },
+                      {
+                        "id": 6,
+                        "name": "Patrick Kane",
+                        "role": "Team Member",
+                        "phoneNumber": "8901234567",
+                        "mailId": "patrick.kane@example.com"
+                      },
+                      {
+                        "id": 7,
+                        "name": "Victor Hedman",
+                        "role": "Team Member",
+                        "phoneNumber": "4321098765",
+                        "mailId": "victor.hedman@example.com"
+                      },
+                      {
+                        "id": 8,
+                        "name": "Elias Pettersson",
+                        "role": "Team Member",
+                        "phoneNumber": "6543210987",
+                        "mailId": "elias.pettersson@example.com"
+                      },
+                      {
+                        "id": 9,
+                        "name": "Artemi Panarin",
+                        "role": "Team Member",
+                        "phoneNumber": "1098765432",
+                        "mailId": "artemi.panarin@example.com"
+                      },
+                      {
+                        "id": 10,
+                        "name": "John Carlson",
+                        "role": "Team Member",
+                        "phoneNumber": "7654321098",
+                        "mailId": "john.carlson@example.com"
+                      }
+                    ]
+                    
+                  }
+                ]
+              },
+              {
+                "id": 3,
+                "name": "Finance",
+                "role":"Head of Dept.",
+                "headName": "Michael F.",
+                "subDepartments": [
+                  {
+                    "id": 301,
+                    "name": "Accounting",
+                    "headName": "Grace A.",
+                    "teamMembers": [
+                      {
+                        "id": 1,
+                        "name": "Adolfo Cambiaso",
+                        "role": "Team Leader",
+                        "phoneNumber": "1234567890",
+                        "mailId": "adolfo.cambiaso@example.com"
+                      },
+                      {
+                        "id": 2,
+                        "name": "Facundo Pieres",
+                        "role": "Team Member",
+                        "phoneNumber": "9876543210",
+                        "mailId": "facundo.pieres@example.com"
+                      },
+                      {
+                        "id": 3,
+                        "name": "Pablo Mac Donough",
+                        "role": "Team Member",
+                        "phoneNumber": "5678901234",
+                        "mailId": "pablo.macdonough@example.com"
+                      },
+                      {
+                        "id": 4,
+                        "name": "Juan Martín Nero",
+                        "role": "Team Member",
+                        "phoneNumber": "8765432109",
+                        "mailId": "juan.nero@example.com"
+                      },
+                      {
+                        "id": 5,
+                        "name": "David Stirling",
+                        "role": "Team Member",
+                        "phoneNumber": "2345678901",
+                        "mailId": "david.stirling@example.com"
+                      },
+                      {
+                        "id": 6,
+                        "name": "Gonzalo Pieres",
+                        "role": "Team Member",
+                        "phoneNumber": "8901234567",
+                        "mailId": "gonzalo.pieres@example.com"
+                      },
+                      {
+                        "id": 7,
+                        "name": "Alejandro Muzzio",
+                        "role": "Team Member",
+                        "phoneNumber": "4321098765",
+                        "mailId": "alejandro.muzzio@example.com"
+                      },
+                      {
+                        "id": 8,
+                        "name": "Tommy Beresford",
+                        "role": "Team Member",
+                        "phoneNumber": "6543210987",
+                        "mailId": "tommy.beresford@example.com"
+                      },
+                      {
+                        "id": 9,
+                        "name": "Nicolás Pieres",
+                        "role": "Team Member",
+                        "phoneNumber": "1098765432",
+                        "mailId": "nicolas.pieres@example.com"
+                      },
+                      {
+                        "id": 10,
+                        "name": "Hilario Ulloa",
+                        "role": "Team Member",
+                        "phoneNumber": "7654321098",
+                        "mailId": "hilario.ulloa@example.com"
+                      }
+                    ]
+                    
+                  },
+                  
+                  {
+                    "id": 302,
+                    "name": "Financial Planning",
+                    "headName": "Henry P.",
+                    "teamMembers": [
+                      {
+                        "id": 1,
+                        "name": "John Cena",
+                        "role": "Team Leader",
+                        "phoneNumber": "1234567890",
+                        "mailId": "john.cena@example.com"
+                      },
+                      {
+                        "id": 2,
+                        "name": "Roman Reigns",
+                        "role": "Team Member",
+                        "phoneNumber": "9876543210",
+                        "mailId": "roman.reigns@example.com"
+                      },
+                      {
+                        "id": 3,
+                        "name": "Becky Lynch",
+                        "role": "Team Member",
+                        "phoneNumber": "5678901234",
+                        "mailId": "becky.lynch@example.com"
+                      },
+                      {
+                        "id": 4,
+                        "name": "Seth Rollins",
+                        "role": "Team Member",
+                        "phoneNumber": "8765432109",
+                        "mailId": "seth.rollins@example.com"
+                      },
+                      {
+                        "id": 5,
+                        "name": "Charlotte Flair",
+                        "role": "Team Member",
+                        "phoneNumber": "2345678901",
+                        "mailId": "charlotte.flair@example.com"
+                      },
+                      {
+                        "id": 6,
+                        "name": "AJ Styles",
+                        "role": "Team Member",
+                        "phoneNumber": "8901234567",
+                        "mailId": "aj.styles@example.com"
+                      },
+                      {
+                        "id": 7,
+                        "name": "Bayley",
+                        "role": "Team Member",
+                        "phoneNumber": "4321098765",
+                        "mailId": "bayley@example.com"
+                      },
+                      {
+                        "id": 8,
+                        "name": "Drew McIntyre",
+                        "role": "Team Member",
+                        "phoneNumber": "6543210987",
+                        "mailId": "drew.mcintyre@example.com"
+                      },
+                      {
+                        "id": 9,
+                        "name": "Sasha Banks",
+                        "role": "Team Member",
+                        "phoneNumber": "1098765432",
+                        "mailId": "sasha.banks@example.com"
+                      },
+                      {
+                        "id": 10,
+                        "name": "Edge",
+                        "role": "Team Member",
+                        "phoneNumber": "7654321098",
+                        "mailId": "edge@example.com"
+                      }
+                    ]
+                    
+                  }
+                ]
+              },
+              {
+                "id": 4,
+                "name": "Marketing",
+                "role":"Head of Dept.",
+                "headName": "Olivia M.",
+                "subDepartments": [
+                  {
+                    "id": 401,
+                    "name": "Digital Marketing",
+                    "headName": "Liam D.",
+                    "teamMembers": [
+                      {
+                        "id": 1,
+                        "name": "Bajrang Punia",
+                        "role": "Team Leader",
+                        "phoneNumber": "1234567890",
+                        "mailId": "bajrang.punia@example.com"
+                      },
+                      {
+                        "id": 2,
+                        "name": "Vinesh Phogat",
+                        "role": "Team Member",
+                        "phoneNumber": "9876543210",
+                        "mailId": "vinesh.phogat@example.com"
+                      },
+                      {
+                        "id": 3,
+                        "name": "Deepak Punia",
+                        "role": "Team Member",
+                        "phoneNumber": "5678901234",
+                        "mailId": "deepak.punia@example.com"
+                      },
+                      {
+                        "id": 4,
+                        "name": "Ravi Dahiya",
+                        "role": "Team Member",
+                        "phoneNumber": "8765432109",
+                        "mailId": "ravi.dahiya@example.com"
+                      },
+                      {
+                        "id": 5,
+                        "name": "Sakshi Malik",
+                        "role": "Team Member",
+                        "phoneNumber": "2345678901",
+                        "mailId": "sakshi.malik@example.com"
+                      },
+                      {
+                        "id": 6,
+                        "name": "Sumit Malik",
+                        "role": "Team Member",
+                        "phoneNumber": "8901234567",
+                        "mailId": "sumit.malik@example.com"
+                      },
+                      {
+                        "id": 7,
+                        "name": "Pooja Dhanda",
+                        "role": "Team Member",
+                        "phoneNumber": "4321098765",
+                        "mailId": "pooja.dhanda@example.com"
+                      },
+                      {
+                        "id": 8,
+                        "name": "Babita Phogat",
+                        "role": "Team Member",
+                        "phoneNumber": "6543210987",
+                        "mailId": "babita.phogat@example.com"
+                      },
+                      {
+                        "id": 9,
+                        "name": "Sushil Kumar",
+                        "role": "Team Member",
+                        "phoneNumber": "1098765432",
+                        "mailId": "sushil.kumar@example.com"
+                      },
+                      {
+                        "id": 10,
+                        "name": "Yogeshwar Dutt",
+                        "role": "Team Member",
+                        "phoneNumber": "7654321098",
+                        "mailId": "yogeshwar.dutt@example.com"
+                      }
+                    ]
+                    
+                  },
+                  {
+                    "id": 402,
+                    "name": "Brand Management",
+                    "headName": "Emma B.",
+                    "teamMembers": [
+                      {}
+                    ]
+                  }
+                ]
+              },
+              {
+                "id": 5,
+                "name": "Sales",
+                "role":"Head of Dept.",
+                "headName": "Mia S.",
+                "subDepartments": [
+                  {
+                    "id": 501,
+                    "name": "Inside Sales",
+                    "headName": "Noah I.",
+                    "teamMembers": [
+                      {}
+                    ]
+                  },
+                  {
+                    "id": 502,
+                    "name": "Field Sales",
+                    "headName": "Ava F.",
+                    "teamMembers": [
+                      {}
+                    ]
+                  }
+                ]
+              }
+            
+            ]
+          
+          
+    }
+
+    
+}
+
