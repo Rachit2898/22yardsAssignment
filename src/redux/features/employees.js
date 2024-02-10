@@ -17,16 +17,15 @@ const empSlice = createSlice({
       state.deptId = action.payload;
     },
     updateTeamMemberDetails: (state, action) => {
-      const { memberId, newMailId, newPhoneNumber } = action.payload;
+      const { teamId, deptId, memberId, newMailId, newPhoneNumber } =
+        action.payload;
 
-      const department = state.data.company.departments.find((dep) =>
-        dep.subDepartments.some((subDep) =>
-          subDep.teamMembers.some((member) => member.id === memberId)
-        )
+      const department = state.data.company.departments.find(
+        (dep) => dep.id === deptId
       );
 
-      const subDepartment = department.subDepartments.find((subDep) =>
-        subDep.teamMembers.some((member) => member.id === memberId)
+      const subDepartment = department.subDepartments.find(
+        (subDep) => subDep.id === teamId
       );
 
       const teamMember = subDepartment.teamMembers.find(
@@ -79,6 +78,8 @@ const empSlice = createSlice({
           (subDep) => subDep.id === subDepartmentId
         );
 
+        console.log("redux", newTeamMember.id);
+
         if (subDepartment) {
           const newTeamMemberWithId = {
             ...newTeamMember,
@@ -117,7 +118,7 @@ const empSlice = createSlice({
 
       const targetTeamLength = targetTeam.teamMembers.length;
 
-      const newTeamMemberId = targetTeamLength + 1;
+      const newTeamMemberId = targetTeamLength + 2;
 
       teamMember.id = newTeamMemberId;
 
@@ -126,6 +127,25 @@ const empSlice = createSlice({
       state.teamId = targetTeam.id;
       state.teamMemberId = newTeamMemberId;
       state.deptId = deptId;
+    },
+    removeTeamMember: (state, action) => {
+      const { teamId, deptId, memberId } = action.payload;
+
+      const department = state.data.company.departments.find(
+        (dept) => dept.id === deptId
+      );
+
+      const subDepartment = department.subDepartments.find(
+        (subDept) => subDept.id === teamId
+      );
+
+      const teamMemberIndex = subDepartment.teamMembers.findIndex(
+        (member) => member.id === memberId
+      );
+
+      if (teamMemberIndex !== -1) {
+        subDepartment.teamMembers.splice(teamMemberIndex, 1);
+      }
     },
   },
 });
@@ -137,5 +157,6 @@ export const {
   setDeptId,
   addTeamMembers,
   moveTeamMember,
+  removeTeamMember,
 } = empSlice.actions;
 export default empSlice.reducer;

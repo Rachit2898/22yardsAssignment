@@ -47,7 +47,7 @@ const Profile = () => {
   }, [data]);
 
   const [isEditing, setIsEditing] = useState(false);
-  const [profileData, setProfileData] = useState(data.data);
+
   const [phoneNumber, setPhoneNumber] = useState(memberDetails.phoneNumber);
   const [email, setEmail] = useState(memberDetails.mailId);
 
@@ -64,6 +64,8 @@ const Profile = () => {
     setIsEditing(false);
     dispatch(
       updateTeamMemberDetails({
+        teamId,
+        deptId,
         memberId: memberDetails.id,
         newMailId: email,
         newPhoneNumber: phoneNumber,

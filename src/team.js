@@ -17,6 +17,7 @@ import {
   setTeamMemberId,
   makeTeamLeader,
   addTeamMembers,
+  removeTeamMember,
 } from "./redux/features/employees";
 
 const Team = () => {
@@ -56,16 +57,13 @@ const Team = () => {
   const [newMemberEmail, setNewMemberEmail] = useState("");
   const [searchQuery, setSearchQuery] = useState("");
 
+  console.log(teamMembers.length);
+
   const addTeamMember = () => {
     if (!newMemberName || !newMemberMobile || !newMemberEmail) {
       alert("All fields are required. Please fill in all the details.");
       return;
     }
-    const newMember = {
-      id: teamMembers.length + 1,
-      name: newMemberName,
-      role: "Team Member",
-    };
 
     if (teamMembers.some((member) => member.name === newMemberName)) {
       alert(
@@ -73,6 +71,8 @@ const Team = () => {
       );
       return;
     }
+
+    console.log(teamMembers.length, "indide");
 
     dispatch(
       addTeamMembers({
@@ -97,8 +97,9 @@ const Team = () => {
     setAddModalVisible(false);
   };
 
-  const removeTeamMember = (memberId) => {
-    setTeamMembers(teamMembers.filter((member) => member.id !== memberId));
+  const removeTeamMembers = (memberId) => {
+    dispatch(removeTeamMember({ teamId, deptId, memberId }));
+    // setTeamMembers(teamMembers.filter((member) => member.id !== memberId));
   };
 
   const makeTeamLeaderHandler = (memberId) => {
@@ -223,7 +224,7 @@ const Team = () => {
                   }}
                 >
                   <Pressable
-                    onPress={() => removeTeamMember(member.id)}
+                    onPress={() => removeTeamMembers(member.id)}
                     style={{
                       backgroundColor: "#2165b8",
 
